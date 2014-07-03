@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncTest</string>
+    <string name="firstact">Première activité</string>
+    <string name="secondact">Seconde activité</string>
+    <string name="title_activity_sec">SecActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
