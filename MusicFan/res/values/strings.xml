@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicFan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_infos">InfosActivity</string>
+    <string name="title_activity_danser">DanserActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_concert">ConcertActivity</string>
+
+</resources>

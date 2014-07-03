@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/ville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Les rebelles!" />
+
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ville"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="64dp"
+        android:text="Bienvenue !" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bienvenue"
+        android:layout_marginTop="37dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editName"
+        android:layout_toRightOf="@+id/editName"
+        android:text="Valider" />
+
+    <Button
+        android:id="@+id/buttonSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bienvenue"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="88dp"
+        android:text="SMS au chanteur" />
+
+    <TextView
+        android:id="@+id/textSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonSMS"
+        android:layout_alignLeft="@+id/ville"
+        android:layout_marginLeft="52dp"
+        android:text="Visitez notre site" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bienvenue"
+        android:layout_below="@+id/buttonSMS"
+        android:layout_marginTop="42dp"
+        android:text="Stop service" />
+
+</RelativeLayout>
